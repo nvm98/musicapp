@@ -28,6 +28,6 @@ export default class App extends Component {
 const styles = {
   container: {
     flex: 1,
-    backgroundColor: 'rgb(4,4,4)',
+    backgroundColor: '#fff',
   },
 }
