@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {Dimensions, Image, StyleSheet, TouchableOpacity, View,} from 'react-native';
+import {Dimensions, Image, StyleSheet, TouchableOpacity, View} from 'react-native';
 
 const AlbumArt = ({url, onPress}) => (
     <View style={styles.container}>
