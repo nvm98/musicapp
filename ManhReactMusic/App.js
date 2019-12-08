@@ -19,7 +19,7 @@ export default class App extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Header message="Playing" />
+        <Header message="Playing Em của ngày hôm qua" />
       </View>
     );
   }
