@@ -17,13 +17,13 @@ const Header = ({
   <View style={styles.container}>
     <TouchableOpacity onPress={onDownPress}>
                 <Image style={styles.button}
-                    source={require('../../sources/images/2x/baseline_keyboard_arrow_down_black_18dp.png')} />
+                    source={require('../../sources/ic_keyboard_arrow_down_white.png')} />
     </TouchableOpacity>
     <Text onPress={onMessagePress}
       style={styles.message}>{message.toUpperCase()}</Text>
     <TouchableOpacity onPress={onQueuePress}>
                 <Image style={styles.button}
-                    source={require('../../sources/images/2x/baseline_queue_music_black_18dp.png')} />
+                    source={require('../../sources/ic_queue_music_white.png')} />
     </TouchableOpacity>
   </View>
 );
